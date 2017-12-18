@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.16.0",
+    "bootstrap-less": "^3.3.8",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5"
+  }
+}

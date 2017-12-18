@@ -1,0 +1,51 @@
+.homepage-hero {
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('/images/homepage/threads-darker.jpg');
+    background-size: cover;
+    background-position: center;
+
+    &__background-overlay {
+//        background: rgba(0,0,0,0.2);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left:0;
+        z-index: 1;
+    }
+
+    &__content {
+        position: relative;
+        z-index: 2;
+        max-width: 50%;
+        color: white;
+        padding: 30px;
+    }
+
+    &__logo {
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-size: 58px;
+        margin: 0 auto;
+        letter-spacing: -2.5px;
+    }
+
+    &__tagline {
+        margin: 0 auto;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 100;
+    }
+
+    &__email {
+        display: block;
+        margin: 0 auto;
+        text-decoration: none;
+    }
+}
